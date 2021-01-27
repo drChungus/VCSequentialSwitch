@@ -12764,7 +12764,11 @@ W = angled&lt;p&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
+<clearance class="0" value="0.2032"/>
+</class>
+<class number="1" name="SupplyLines" width="0.4064" drill="0">
+<clearance class="1" value="0.2032"/>
 </class>
 </classes>
 <parts>
@@ -13121,7 +13125,7 @@ W = angled&lt;p&gt;
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="-129.54" y1="-2.54" x2="-129.54" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-7.62" x2="-129.54" y2="-5.08" width="0.1524" layer="91"/>
@@ -13239,7 +13243,7 @@ W = angled&lt;p&gt;
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="1">
 <segment>
 <wire x1="-129.54" y1="0" x2="-129.54" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="7.62" x2="-109.22" y2="7.62" width="0.1524" layer="91"/>
@@ -13253,7 +13257,7 @@ W = angled&lt;p&gt;
 <pinref part="J1" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="1">
 <segment>
 <wire x1="-129.54" y1="-10.16" x2="-129.54" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-17.78" x2="-109.22" y2="-17.78" width="0.1524" layer="91"/>
@@ -13267,7 +13271,7 @@ W = angled&lt;p&gt;
 <pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="-12V" class="0">
+<net name="-12V" class="1">
 <segment>
 <pinref part="P-1" gate="1" pin="-12V"/>
 <wire x1="-91.44" y1="-17.78" x2="-91.44" y2="-20.32" width="0.1524" layer="91"/>
@@ -13293,7 +13297,7 @@ W = angled&lt;p&gt;
 <junction x="114.3" y="-20.32"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="1">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-99.06" y1="7.62" x2="-91.44" y2="7.62" width="0.1524" layer="91"/>
