@@ -13125,7 +13125,7 @@ W = angled&lt;p&gt;
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="111" class="1">
 <segment>
 <wire x1="-129.54" y1="-2.54" x2="-129.54" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-7.62" x2="-129.54" y2="-5.08" width="0.1524" layer="91"/>
@@ -13297,7 +13297,7 @@ W = angled&lt;p&gt;
 <junction x="114.3" y="-20.32"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="1">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-99.06" y1="7.62" x2="-91.44" y2="7.62" width="0.1524" layer="91"/>

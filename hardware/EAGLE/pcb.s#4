@@ -12765,10 +12765,10 @@ W = angled&lt;p&gt;
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.254" drill="0">
-<clearance class="0" value="0.0508"/>
+<clearance class="0" value="0.2032"/>
 </class>
 <class number="1" name="SupplyLines" width="0.4064" drill="0">
-<clearance class="1" value="0.1016"/>
+<clearance class="1" value="0.2032"/>
 </class>
 </classes>
 <parts>
@@ -13297,7 +13297,7 @@ W = angled&lt;p&gt;
 <junction x="114.3" y="-20.32"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="1">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-99.06" y1="7.62" x2="-91.44" y2="7.62" width="0.1524" layer="91"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,10 +23,10 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -50,13 +50,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -186,30 +186,59 @@
 </layers>
 <board>
 <plain>
-<hole x="10.16" y="87.63" drill="6.985"/>
-<hole x="5.08" y="55.88" drill="6.0198"/>
-<hole x="15.24" y="55.88" drill="6.0198"/>
-<hole x="5.08" y="43.18" drill="6.0198"/>
-<hole x="15.24" y="43.18" drill="6.0198"/>
-<hole x="5.08" y="30.48" drill="6.0198"/>
-<hole x="15.24" y="30.48" drill="6.0198"/>
-<hole x="5.08" y="17.78" drill="6.0198"/>
-<hole x="15.24" y="17.78" drill="6.0198"/>
-<hole x="5.08" y="68.58" drill="6.0198"/>
-<hole x="15.24" y="68.58" drill="6.0198"/>
-<hole x="5.08" y="113.3475" drill="6.0198"/>
-<hole x="15.24" y="113.3475" drill="6.0198"/>
-<hole x="3.4925" y="78.74" drill="3.0226"/>
-<hole x="7.9375" y="78.74" drill="3.0226"/>
-<hole x="12.3825" y="78.74" drill="3.0226"/>
-<hole x="16.8275" y="78.74" drill="3.0226"/>
-<hole x="10.16" y="102.87" drill="5.0038"/>
-<dimension x1="13.6525" y1="87.63" x2="6.6675" y2="87.63" x3="6.6675" y3="87.63" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="13.97" y1="87.63" x2="13.97" y2="102.87" x3="25.4" y3="95.25" textsize="1.778" layer="1" dtype="diameter"/>
+<dimension x1="2.54" y1="119.38" x2="2.54" y2="105.41" x3="-2.54" y3="112.395" textsize="1.778" layer="1"/>
+<hole x="36.83" y="87.63" drill="6.985"/>
+<hole x="31.75" y="55.88" drill="6.0198"/>
+<hole x="41.91" y="55.88" drill="6.0198"/>
+<hole x="31.75" y="43.18" drill="6.0198"/>
+<hole x="41.91" y="43.18" drill="6.0198"/>
+<hole x="31.75" y="30.48" drill="6.0198"/>
+<hole x="41.91" y="30.48" drill="6.0198"/>
+<hole x="31.75" y="17.78" drill="6.0198"/>
+<hole x="41.91" y="17.78" drill="6.0198"/>
+<hole x="31.75" y="68.58" drill="6.0198"/>
+<hole x="41.91" y="68.58" drill="6.0198"/>
+<hole x="31.75" y="113.3475" drill="6.0198"/>
+<hole x="41.91" y="113.3475" drill="6.0198"/>
+<hole x="30.1625" y="78.74" drill="3.0226"/>
+<hole x="34.6075" y="78.74" drill="3.0226"/>
+<hole x="39.0525" y="78.74" drill="3.0226"/>
+<hole x="43.4975" y="78.74" drill="3.0226"/>
 </plain>
 <libraries>
 <library name="eurohelper">
 <packages>
+<package name="EURO_PCB_4HP">
+<wire x1="0" y1="0" x2="0.16" y2="0" width="0" layer="51"/>
+<wire x1="0.16" y1="0" x2="10.16" y2="0" width="0" layer="51"/>
+<wire x1="10.16" y1="0" x2="20.16" y2="0" width="0" layer="51"/>
+<wire x1="20.16" y1="0" x2="20.32" y2="0" width="0" layer="51"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="7.62" width="0" layer="51" style="shortdash"/>
+<wire x1="20.32" y1="7.62" x2="20.32" y2="120.88" width="0" layer="51" style="shortdash"/>
+<wire x1="20.32" y1="120.88" x2="20.32" y2="128.5" width="0" layer="51" style="shortdash"/>
+<wire x1="20.32" y1="128.5" x2="20.16" y2="128.5" width="0" layer="51"/>
+<wire x1="20.16" y1="128.5" x2="10.16" y2="128.5" width="0" layer="51"/>
+<wire x1="10.16" y1="128.5" x2="0.16" y2="128.5" width="0" layer="51"/>
+<wire x1="0.16" y1="128.5" x2="0" y2="128.5" width="0" layer="51"/>
+<wire x1="0" y1="128.5" x2="0" y2="120.88" width="0" layer="51" style="shortdash"/>
+<wire x1="0" y1="120.88" x2="0" y2="7.62" width="0" layer="51" style="shortdash"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0" layer="51" style="shortdash"/>
+<wire x1="0" y1="7.62" x2="20.32" y2="7.62" width="0" layer="51" style="shortdash"/>
+<wire x1="0" y1="120.88" x2="20.32" y2="120.88" width="0" layer="51" style="shortdash"/>
+<wire x1="18.415" y1="8.89" x2="1.905" y2="8.89" width="0" layer="20"/>
+<wire x1="1.905" y1="8.89" x2="1.27" y2="9.525" width="0" layer="20" curve="-90"/>
+<wire x1="1.27" y1="9.525" x2="1.27" y2="118.745" width="0" layer="20"/>
+<wire x1="1.27" y1="118.745" x2="1.905" y2="119.38" width="0" layer="20" curve="-90"/>
+<wire x1="1.905" y1="119.38" x2="18.415" y2="119.38" width="0" layer="20"/>
+<wire x1="18.415" y1="119.38" x2="19.05" y2="118.745" width="0" layer="20" curve="-90"/>
+<wire x1="19.05" y1="118.745" x2="19.05" y2="9.525" width="0" layer="20"/>
+<wire x1="19.05" y1="9.525" x2="18.415" y2="8.89" width="0" layer="20" curve="-90"/>
+<wire x1="0.16" y1="0" x2="0.16" y2="128.5" width="0" layer="51"/>
+<wire x1="20.16" y1="0" x2="20.16" y2="128.5" width="0" layer="51"/>
+<circle x="7.5" y="3" radius="1.6" width="0.001" layer="51"/>
+<circle x="7.5" y="125.5" radius="1.6" width="0.001" layer="51"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="128.5" width="0" layer="51" style="shortdash"/>
+</package>
 <package name="EURO_PANEL_4HP">
 <wire x1="0.16" y1="0" x2="20.16" y2="0" width="0" layer="20"/>
 <wire x1="20.16" y1="128.5" x2="0.16" y2="128.5" width="0" layer="20"/>
@@ -311,12 +340,12 @@
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="10.5mil"/>
+<param name="RoutingGrid" value="50mil"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="*"/>
+<param name="PrefDir.1" value="a"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -331,8 +360,8 @@
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="*"/>
-<param name="cfVia" value="90"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
 <param name="cfOrthStep" value="2"/>
@@ -370,10 +399,8 @@
 <param name="mnRipupTotal" value="100"/>
 </pass>
 <pass name="Follow-me" refer="Default" active="yes">
-<param name="cfVia" value="8"/>
 </pass>
 <pass name="Busses" refer="Default" active="yes">
-<param name="cfVia" value="8"/>
 <param name="cfNonPref" value="4"/>
 <param name="cfBusImpact" value="4"/>
 <param name="cfHugging" value="0"/>
@@ -383,45 +410,47 @@
 </pass>
 <pass name="Optimize1" refer="Default" active="yes">
 <param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
 </pass>
 <pass name="Optimize2" refer="Optimize1" active="yes">
-</pass>
-<pass name="Optimize3" refer="Optimize2" active="yes">
-</pass>
-<pass name="Optimize4" refer="Optimize3" active="yes">
-</pass>
-<pass name="Optimize5" refer="Optimize4" active="yes">
-</pass>
-<pass name="Optimize6" refer="Optimize5" active="yes">
-</pass>
-<pass name="Optimize7" refer="Optimize6" active="yes">
-<param name="cfBonusStep" value="0"/>
-<param name="cfMalusStep" value="0"/>
-<param name="cfPadImpact" value="0"/>
-<param name="cfSmdImpact" value="0"/>
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
 <param name="cfHugging" value="0"/>
 </pass>
-<pass name="Optimize8" refer="Optimize7" active="yes">
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
 </pass>
-<pass name="Optimize9" refer="Optimize8" active="yes">
-</pass>
-<pass name="Optimize10" refer="Optimize9" active="yes">
-</pass>
-<pass name="Optimize11" refer="Optimize10" active="yes">
-</pass>
-<pass name="Optimize12" refer="Optimize11" active="yes">
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
 </pass>
 </autorouter>
 <elements>
-<element name="U$2" library="eurohelper" package="EURO_PANEL_4HP" value="" x="0" y="0" smashed="yes"/>
+<element name="U$1" library="eurohelper" package="EURO_PCB_4HP" value="" x="0" y="0" smashed="yes"/>
+<element name="U$2" library="eurohelper" package="EURO_PANEL_4HP" value="" x="26.67" y="0" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
 <polygon width="0.1524" layer="1">
-<vertex x="0" y="128.27"/>
-<vertex x="20.32" y="128.27"/>
-<vertex x="20.32" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="0" y="119.38"/>
+<vertex x="20.32" y="119.38"/>
+<vertex x="20.32" y="8.89"/>
+<vertex x="0" y="8.89"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="1.27" y="119.38"/>
+<vertex x="19.05" y="119.38"/>
+<vertex x="19.05" y="8.89"/>
+<vertex x="1.27" y="8.89"/>
 </polygon>
 </signal>
 </signals>
