@@ -186,7 +186,6 @@
 </layers>
 <board>
 <plain>
-<dimension x1="2.54" y1="119.38" x2="2.54" y2="105.41" x3="-2.54" y3="112.395" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="eurohelper">

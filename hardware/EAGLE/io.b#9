@@ -1761,8 +1761,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <element name="J7" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="15.24" y="30.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.74" y="35.64" size="1.27" layer="26" rot="MR180"/>
 </element>
-<element name="J8" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="15.24" y="17.78" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.74" y="22.94" size="1.27" layer="26" rot="MR180"/>
+<element name="J8" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="15.24" y="17.78" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.74" y="22.94" locked="yes" size="1.27" layer="26" rot="MR180"/>
 </element>
 <element name="J9" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="5.08" y="68.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="6.93" y="66.12" size="1.27" layer="26" rot="MR180"/>
