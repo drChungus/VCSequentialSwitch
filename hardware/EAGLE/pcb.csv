@@ -1,0 +1,14 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"CATEGORY";"CREATED_BY";"DESCRIPTION";"DIGIKEY_PART_NUMBER";"IC_MAX";"MANUFACTURER";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"OPERATING_TEMP";"PACKAGE";"PART_STATUS";"POPULARITY";"PROD_ID";"ROHS_COMPLIANT";"SERIES";"SF_ID";"SPICEPREFIX";"SUB-CATEGORY";"THERMALLOSS";"TYPE";"VALUE";"VCEO_MAX";
+"6";"100n";"C-USC0603";"C0603";"C1, C2, C3, C4, C5, C6";"CAPACITOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"37";"";"";"";"";"C";"";"";"";"";"";
+"5";"10k";"R-US_R0603";"R0603";"R12, R13, R16, R17, R19";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"77";"";"";"";"";"R";"";"";"";"";"";
+"2";"10u";"CPOL-EU153CLV-0605";"153CLV-0605";"C7, C8";"POLARIZED CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"C";"";"";"";"";"";
+"2";"1N4004";"1N4004";"DO-41";"D1, D2";"DIODE GEN PURP 400V 1A DO41";"";"PCBLayout.com";"";"1N4004MSCT-ND";"";"Micro Commercial Co";"";"1N4004";"";"";"";"DO-41";"";"";"";"";"";"";"";"";"";"";"";"";
+"5";"1N4148WT";"DIODE-SOD523";"SOD523";"D3, D4, D5, D6, D7";"DIODE";"";"";"";"";"";"";"";"";"";"";"";"";"";"3";"";"";"";"";"";"";"";"";"";"";
+"10";"1k";"R-US_R0603";"R0603";"R2, R3, R4, R5, R6, R7, R8, R9, R10, R11";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"77";"";"";"";"";"R";"";"";"";"";"";
+"2";"1x10 pin header";"MA10-1";"MA10-1";"SV1, SV2";"PIN HEADER";"";"";"";"";"";"";"";"";"unknown";"unknown";"";"";"";"4";"";"";"";"";"";"";"";"";"";"";
+"1";"1x3 pin header";"MA03-1";"MA03-1";"SV3";"PIN HEADER";"";"";"";"";"";"";"";"";"unknown";"unknown";"";"";"";"48";"";"";"";"";"";"";"";"";"";"";
+"1";"2x5 pin header";"CONN_05X2SHD";"2X5-SHROUDED";"J1";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"CONN-08671";"";"";"PRT-08506";"";"";"";"";"";"";
+"1";"4017N";"4017N";"DIL16";"IC1";"COUNTER/DIVIDER";"";"";"";"";"";"";"";"";"";"";"";"";"";"2";"";"";"";"";"";"";"";"";"";"";
+"4";"47k";"R-US_R0603";"R0603";"R1, R14, R15, R18";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"77";"";"";"";"";"R";"";"";"";"";"";
+"2";"DG412DJD";"DG412DJD";"SO16";"IC2, IC3";"CMOS SWITCH";"";"";"";"";"";"";"";"";"";"";"";"";"";"0";"";"";"";"";"";"";"";"";"";"";
+"4";"MMBT3904";"NPN_MMBT3904-7-F_SOT-23";"SOT95P237X112-3N";"Q1, Q2, Q3, Q4";"NPN - Popular parts";"Transistor";"";"TRANS NPN 40V 0.2A SMD SOT23-3";"";"";"Diodes Incorporated";"";"";"";"";"";"";"";"";"";"";"";"";"";"BJT";"";"NPN";"MMBT3904";"";

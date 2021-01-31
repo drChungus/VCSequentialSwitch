@@ -6394,14 +6394,14 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-1" device="" package3d_urn="urn:adsk.eagle:package:8346/1"/>
-<part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-1" device="" package3d_urn="urn:adsk.eagle:package:8346/1"/>
+<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-1" device="" package3d_urn="urn:adsk.eagle:package:8346/1" value="1x10 pin header"/>
+<part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-1" device="" package3d_urn="urn:adsk.eagle:package:8346/1" value="1x10 pin header"/>
 <part name="S1" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-SHORT_LEADS"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
-<part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="1x3 pin header"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SW1" library="SparkFun" deviceset="TAC_SWITCH" device="PTH"/>
+<part name="SW1" library="SparkFun" deviceset="TAC_SWITCH" device="PTH" value="SPDT On-Off-On"/>
 </parts>
 <sheets>
 <sheet>
@@ -6524,7 +6524,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 </instance>
 <instance part="SW1" gate="S" x="-157.48" y="55.88" smashed="yes">
 <attribute name="NAME" x="-160.02" y="62.23" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-160.02" y="49.53" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-162.56" y="49.53" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6909,10 +6909,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <approved hash="113,1,-95.25,46.2051,D2,,,,,"/>
 <approved hash="113,1,-95.25,36.0451,D3,,,,,"/>
 <approved hash="113,1,-95.25,25.8851,D4,,,,,"/>
-<approved hash="113,1,-170.138,18.0696,SV1,,,,,"/>
-<approved hash="113,1,-144.822,18.0696,SV2,,,,,"/>
 <approved hash="113,1,-95.25,-4.48564,S1,,,,,"/>
-<approved hash="113,1,-155.92,-15.1977,SV3,,,,,"/>
 <approved hash="113,1,-157.48,58.1254,SW1,,,,,"/>
 </errors>
 </schematic>

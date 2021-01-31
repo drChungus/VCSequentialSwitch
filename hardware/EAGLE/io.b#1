@@ -1836,7 +1836,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="PROD_ID" value="DIO-08794" x="3.4925" y="78.74" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="5.7785" y="78.74" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
-<element name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA10-1" package3d_urn="urn:adsk.eagle:package:8346/1" value="" x="16.51" y="93.98" smashed="yes" rot="R90">
+<element name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA10-1" package3d_urn="urn:adsk.eagle:package:8346/1" value="1x10 pin header" x="16.51" y="93.98" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="16.51" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="16.51" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.589" y="93.98" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -1845,7 +1845,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="POPULARITY" value="4" x="16.51" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="19.431" y="95.25" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA10-1" package3d_urn="urn:adsk.eagle:package:8346/1" value="" x="3.81" y="93.98" smashed="yes" rot="R90">
+<element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA10-1" package3d_urn="urn:adsk.eagle:package:8346/1" value="1x10 pin header" x="3.81" y="93.98" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="3.81" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="3.81" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.239" y="93.98" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -1865,7 +1865,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="SPICEPREFIX" value="R" x="10.16" y="73.66" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="13.335" y="74.295" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="10.16" y="11.43" smashed="yes" rot="R180">
+<element name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="1x3 pin header" x="10.16" y="11.43" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="10.16" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="10.16" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="11.43" y="14.859" size="1.27" layer="25" ratio="10" rot="R180"/>
