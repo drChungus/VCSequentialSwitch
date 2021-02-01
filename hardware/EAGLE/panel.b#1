@@ -186,7 +186,7 @@
 </layers>
 <board>
 <plain>
-<hole x="10.16" y="87.63" drill="6.985"/>
+<hole x="10.16" y="87.63" drill="5.0038"/>
 <hole x="5.08" y="55.88" drill="6.0198"/>
 <hole x="15.24" y="55.88" drill="6.0198"/>
 <hole x="5.08" y="43.18" drill="6.0198"/>
@@ -416,6 +416,12 @@
 <signals>
 <signal name="GND">
 <polygon width="0.1524" layer="1">
+<vertex x="0" y="128.27"/>
+<vertex x="20.32" y="128.27"/>
+<vertex x="20.32" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<polygon width="0.1524" layer="16">
 <vertex x="0" y="128.27"/>
 <vertex x="20.32" y="128.27"/>
 <vertex x="20.32" y="0"/>
