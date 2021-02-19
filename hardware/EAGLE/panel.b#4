@@ -34,30 +34,30 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
@@ -186,7 +186,7 @@
 </layers>
 <board>
 <plain>
-<hole x="10.16" y="87.63" drill="6.985"/>
+<hole x="10.16" y="87.63" drill="5.0038"/>
 <hole x="5.08" y="55.88" drill="6.0198"/>
 <hole x="15.24" y="55.88" drill="6.0198"/>
 <hole x="5.08" y="43.18" drill="6.0198"/>
@@ -204,11 +204,7 @@
 <hole x="12.3825" y="78.74" drill="3.0226"/>
 <hole x="16.8275" y="78.74" drill="3.0226"/>
 <hole x="10.16" y="102.87" drill="5.0038"/>
-<dimension x1="13.6525" y1="87.63" x2="6.6675" y2="87.63" x3="6.6675" y3="87.63" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="13.97" y1="87.63" x2="13.97" y2="102.87" x3="25.4" y3="95.25" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="18.05825625" y1="114.404346875" x2="12.42174375" y2="112.290653125" x3="12.42174375" y3="112.290653125" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="7.6581" y1="102.87" x2="12.6619" y2="102.87" x3="12.6619" y3="102.87" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="15.3162" y1="78.74" x2="18.3388" y2="78.74" x3="18.3388" y3="78.74" textsize="1.778" layer="1" dtype="diameter"/>
+<rectangle x1="1.905" y1="14.605" x2="8.255" y2="20.955" layer="1" rot="R45"/>
 </plain>
 <libraries>
 <library name="eurohelper">
@@ -421,6 +417,12 @@
 <signals>
 <signal name="GND">
 <polygon width="0.1524" layer="1">
+<vertex x="0" y="128.27"/>
+<vertex x="20.32" y="128.27"/>
+<vertex x="20.32" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<polygon width="0.1524" layer="16">
 <vertex x="0" y="128.27"/>
 <vertex x="20.32" y="128.27"/>
 <vertex x="20.32" y="0"/>
