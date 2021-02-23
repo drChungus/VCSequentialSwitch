@@ -1413,6 +1413,35 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
+<package name="TT2D4L" urn="urn:adsk.eagle:footprint:22808/1" library_version="3">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 4 mm, grid 2.54 mm</description>
+<wire x1="2.159" y1="7.747" x2="2.159" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.016" x2="1.524" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="1.651" x2="-1.524" y2="1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="1.016" x2="2.159" y2="1.651" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.27" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="-0.635" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.651" x2="-0.3048" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.651" x2="-0.3048" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="3.429" x2="-0.635" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="3.429" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="3.429" x2="-1.016" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="3.81" x2="-1.397" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="7.747" x2="-2.159" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="7.747" x2="2.159" y2="7.747" width="0.1524" layer="21" curve="-180"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="-2.54" y="1.397" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="1.778" y="4.318" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="1.905" y="1.778" size="0.9906" layer="21" ratio="12" rot="R90">TT</text>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.016" layer="51"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.016" layer="51"/>
+<rectangle x1="0.889" y1="-0.127" x2="1.651" y2="0.635" layer="51"/>
+<rectangle x1="-1.651" y1="-0.127" x2="-0.889" y2="0.635" layer="51"/>
+<rectangle x1="0" y1="1.6002" x2="0.4318" y2="3.4798" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="11">
@@ -1425,6 +1454,13 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <description>CAPACITOR</description>
 <packageinstances>
 <packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+<package3d name="TT2D4L" urn="urn:adsk.eagle:package:23321/1" type="box" library_version="3">
+<description>ELECTROLYTIC CAPACITOR
+diameter 4 mm, grid 2.54 mm</description>
+<packageinstances>
+<packageinstance name="TT2D4L"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2003,13 +2039,13 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="14.477996875" y="22.6695" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="9.524996875" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="2X5-SHROUDED" value="" x="10.16" y="69.215" smashed="yes" rot="MR180">
+<element name="J1" library="SparkFun-Connectors" package="2X5-SHROUDED" value="2x5 pin header" x="10.16" y="69.215" smashed="yes" rot="MR180">
 <attribute name="NAME" x="5.842" y="58.801" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180"/>
 <attribute name="PROD_ID" value="CONN-08671" x="0" y="45.085" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SF_ID" value="PRT-08506" x="0" y="45.085" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="5.842" y="80.264" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180"/>
 </element>
-<element name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA10-1" package3d_urn="urn:adsk.eagle:package:8346/1" value="" x="3.81" y="93.98" smashed="yes" rot="R90">
+<element name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA10-1" package3d_urn="urn:adsk.eagle:package:8346/1" value="1x10 pin header" x="3.81" y="93.98" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="3.81" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="3.81" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.239" y="92.71" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -2018,7 +2054,7 @@ W = angled&lt;p&gt;
 <attribute name="POPULARITY" value="4" x="3.81" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.731" y="95.25" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA10-1" package3d_urn="urn:adsk.eagle:package:8346/1" value="" x="16.51" y="93.98" smashed="yes" rot="R90">
+<element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA10-1" package3d_urn="urn:adsk.eagle:package:8346/1" value="1x10 pin header" x="16.51" y="93.98" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="16.51" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="16.51" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.859" y="92.71" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -2071,7 +2107,7 @@ W = angled&lt;p&gt;
 <attribute name="POPULARITY" value="77" x="17.145" y="12.065" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="17.145" y="12.065" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="10.16" y="11.43" smashed="yes">
+<element name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="1x3 pin header" x="10.16" y="11.43" smashed="yes">
 <attribute name="MF" value="" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
@@ -2213,6 +2249,16 @@ W = angled&lt;p&gt;
 <attribute name="POPULARITY" value="77" x="10.16" y="95.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="10.16" y="95.25" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="TT2D4L" package3d_urn="urn:adsk.eagle:package:23321/1" value="10u" x="-3.4925" y="0" smashed="yes">
+<attribute name="NAME" x="-6.0325" y="1.397" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="SPICEPREFIX" value="C" x="-3.4925" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-1.7145" y="4.318" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="TT2D4L" package3d_urn="urn:adsk.eagle:package:23321/1" value="10u" x="-10.4775" y="0" smashed="yes">
+<attribute name="NAME" x="-13.0175" y="1.397" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="SPICEPREFIX" value="C" x="-10.4775" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-8.6995" y="4.318" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1" class="1">
@@ -2311,6 +2357,8 @@ W = angled&lt;p&gt;
 <via x="13.0175" y="97.79" extent="1-16" drill="0.3"/>
 <via x="13.0175" y="78.58125" extent="1-16" drill="0.3"/>
 <via x="14.2875" y="77.31125" extent="1-16" drill="0.3"/>
+<contactref element="C7" pad="+"/>
+<wire x1="-4.7625" y1="0" x2="13.2334" y2="18.415" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-12V" class="1">
 <contactref element="D2" pad="A"/>
@@ -2342,6 +2390,8 @@ W = angled&lt;p&gt;
 <via x="4.1275" y="22.5425" extent="1-16" drill="0.3"/>
 <via x="4.1275" y="30.95625" extent="1-16" drill="0.3"/>
 <via x="4.445" y="69.85" extent="1-16" drill="0.3"/>
+<contactref element="C8" pad="-"/>
+<wire x1="-9.2075" y1="0" x2="3.33375" y2="19.685" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NO">
 <contactref element="SV1" pad="6"/>
@@ -3092,6 +3142,10 @@ W = angled&lt;p&gt;
 <vertex x="19.05" y="8.89"/>
 <vertex x="1.27" y="8.89"/>
 </polygon>
+<contactref element="C7" pad="-"/>
+<contactref element="C8" pad="+"/>
+<wire x1="-2.2225" y1="0" x2="10.16" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.7475" y1="0" x2="-2.2225" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUTTON">
 <contactref element="R19" pad="1"/>

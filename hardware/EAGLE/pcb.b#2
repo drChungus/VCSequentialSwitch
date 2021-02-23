@@ -3267,7 +3267,6 @@ W = angled&lt;p&gt;
 <wire x1="11.43" y1="66.675" x2="11.43" y2="68.0085" width="0.4064" layer="1"/>
 <wire x1="11.43" y1="68.0085" x2="11.43" y2="69.215" width="0.4064" layer="1"/>
 <wire x1="11.43" y1="69.215" x2="11.43" y2="71.755" width="0.4064" layer="1"/>
-<wire x1="11.43" y1="68.0085" x2="8.9154" y2="68.0085" width="0.4064" layer="1"/>
 <wire x1="17.145" y1="28.0035" x2="17.145" y2="23.6601" width="0.4064" layer="1"/>
 <wire x1="17.145" y1="23.6601" x2="17.145" y2="19.9" width="0.4064" layer="1"/>
 <wire x1="18.0594" y1="28.9179" x2="17.145" y2="28.0035" width="0.4064" layer="1"/>
@@ -3301,6 +3300,18 @@ W = angled&lt;p&gt;
 <via x="6.9723" y="79.3242" extent="1-16" drill="0.3"/>
 <via x="11.8872" y="75.7809" extent="1-16" drill="0.3"/>
 <via x="15.7734" y="23.6601" extent="1-16" drill="0.3"/>
+<polygon width="0.4064" layer="16">
+<vertex x="1.27" y="119.38"/>
+<vertex x="19.05" y="119.38"/>
+<vertex x="19.05" y="8.89"/>
+<vertex x="1.27" y="8.89"/>
+</polygon>
+<polygon width="0.4064" layer="1">
+<vertex x="1.27" y="119.38"/>
+<vertex x="19.05" y="119.38"/>
+<vertex x="19.05" y="8.89"/>
+<vertex x="1.27" y="8.89"/>
+</polygon>
 </signal>
 <signal name="BUTTON">
 <contactref element="R19" pad="1"/>
@@ -3337,22 +3348,6 @@ W = angled&lt;p&gt;
 <via x="14.859" y="80.4672" extent="1-16" drill="0.3"/>
 <via x="11.0871" y="93.2688" extent="1-16" drill="0.3"/>
 </signal>
-<signal name="N$18">
-<polygon width="0.4064" layer="1">
-<vertex x="1.27" y="119.38"/>
-<vertex x="19.05" y="119.38"/>
-<vertex x="19.05" y="8.89"/>
-<vertex x="1.27" y="8.89"/>
-</polygon>
-</signal>
-<signal name="N$22">
-<polygon width="0.4064" layer="16">
-<vertex x="1.27" y="119.38"/>
-<vertex x="19.05" y="119.38"/>
-<vertex x="19.05" y="8.89"/>
-<vertex x="1.27" y="8.89"/>
-</polygon>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -3361,6 +3356,9 @@ W = angled&lt;p&gt;
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="23,16,08b3739973d308f9"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

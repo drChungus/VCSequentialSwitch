@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1875,7 +1875,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="VALUE" x="13.97" y="14.351" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="SW1" library="SparkFun" package="TACTILE-PTH" value="SPDT On-Off-On" x="10.16" y="102.87" smashed="yes" rot="MR90">
-<attribute name="NAME" x="10.16" y="110.49" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="10.16" y="99.06" size="1.27" layer="26" ratio="10" rot="MR270"/>
 </element>
 </elements>
 <signals>
