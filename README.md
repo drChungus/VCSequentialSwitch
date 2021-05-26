@@ -2,6 +2,7 @@
 #### Double the switches, double the fun!
 
 The Coupled Sequential Switch (CSS) provides two related sequential switches with four steps.
+![alt text](https://github.com/drChungus/VCSequentialSwitch/blob/main/ProductImages/DSC_0268rr.jpg?raw=true "The Coupled Sequential Switch")
 
 ### Specification:
 Width:&nbsp;**4 HP**
