@@ -30,3 +30,5 @@ For more explanation why a sequential switch might be useful in your rack see [m
 - Switch to define the number of stages (4, 3 or 2)
 
 ![alt text](https://github.com/drChungus/VCSequentialSwitch/blob/main/ProductImages/DSC_0318.jpg?raw=true "The Coupled Sequential Switch with Friends")
+
+NOTE: there might be some reported issues with the current state of the module. Always see [Issues](https://github.com/drChungus/VCSequentialSwitch/issues) reported!
