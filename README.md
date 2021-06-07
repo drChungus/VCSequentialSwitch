@@ -28,3 +28,5 @@ For more explanation why a sequential switch might be useful in your rack see [m
 - 4x LEDs to indicate the current stage
 - Button to advance stage
 - Switch to define the number of stages (4, 3 or 2)
+
+![alt text](https://github.com/drChungus/VCSequentialSwitch/blob/main/ProductImages/DSC_0318.jpg?raw=true "The Coupled Sequential Switch with Friends")
