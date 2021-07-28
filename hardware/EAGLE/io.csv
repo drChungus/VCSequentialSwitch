@@ -1,8 +1,0 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"POPULARITY";"PROD_ID";"SPICEPREFIX";
-"4";"";"LED3MM";"LED_3MM";"D1, D2, D3, D4";"LED (Generic)";"";"";"";"";"";"DIO-08794";"";
-"1";"";"SWITCH-SPDT-PTH-11.6X4.0MM-SHORT_LEADS";"SWITCH_SPDT_PTH_11.6X4.0MM";"S1";"Single Pole, Double Throw (SPDT) Switch";"";"";"";"";"";"SWCH-13151";"";
-"1";"1k";"R-US_R0603";"R0603";"R1";"RESISTOR, American symbol";"";"";"";"";"77";"";"R";
-"2";"1x10 pin header";"MA10-1";"MA10-1";"SV1, SV2";"PIN HEADER";"";"";"unknown";"unknown";"4";"";"";
-"1";"1x3 pin header";"MA03-1";"MA03-1";"SV3";"PIN HEADER";"";"";"unknown";"unknown";"48";"";"";
-"12";"PJ301_THONKICONN6";"PJ301_THONKICONN6";"WQP_PJ_301M6";"J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12, J13";"";"";"";"";"";"";"";"";
-"1";"SPDT On-Off-On";"TAC_SWITCHPTH";"TACTILE-PTH";"SW1";"Momentary Switch";"";"";"";"";"";"";"";
