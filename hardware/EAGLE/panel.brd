@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -203,7 +203,7 @@
 <hole x="7.9375" y="78.74" drill="3.0226"/>
 <hole x="12.3825" y="78.74" drill="3.0226"/>
 <hole x="16.8275" y="78.74" drill="3.0226"/>
-<hole x="10.16" y="102.87" drill="5.0038"/>
+<hole x="10.16" y="102.87" drill="5.2"/>
 <wire x1="13.4658875" y1="126.443753125" x2="13.395621875" y2="126.439496875" width="0.1" layer="21"/>
 <wire x1="13.395621875" y1="126.439496875" x2="13.3252375" y2="126.438734375" width="0.1" layer="21"/>
 <wire x1="13.3252375" y1="126.438734375" x2="13.25513125" y2="126.44476875" width="0.1" layer="21"/>
